@@ -1,0 +1,31 @@
+1. Absolute Positioning
+
+Definition: An element with position: absolute is positioned relative to the nearest positioned ancestor (an ancestor with a position
+ value of relative, absolute, fixed, or sticky). If there is no such ancestor, it is positioned relative to the initial containing block
+  (usually the <html> element).
+
+Behavior:
+The element is removed from the normal document flow, meaning it does not affect the layout of other elements and vice versa.
+You can use the 'top', 'righ't, 'bottom', and 'left' properties to specify the element's exact position.
+
+2. Relative Positioning
+
+Definition: An element with position: relative is positioned relative to its normal position in the document flow.
+
+Behavior:
+The element remains in the normal document flow, and other elements around it are not affected by its new position.
+You can use the top, right, bottom, and left properties to specify the element's offset from its original position.
+
+Key Differences
+
+Positioning Context:
+Absolute: Positioned relative to the nearest positioned ancestor.
+Relative: Positioned relative to its original place in the document flow.
+
+Impact on Document Flow:
+Absolute: Removed from the normal flow, meaning it does not take up space in the layout.
+Relative: Remains in the normal flow, taking up its original space.
+
+Usage:
+Absolute: For precise control and specific placements, such as overlays.
+Relative: For slight adjustments and as a reference for nested absolute positioning.

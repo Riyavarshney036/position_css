@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid yellow;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+#boxA {
+    top: 100px;
+    left: 100px;
+}
+#boxB {
+    top: calc(100px + 25px - 30px - 25px);
+    left: calc(100px + 25px - 30px - 25px);
+}
+#boxC {
+    top: calc(100px + 25px - 30px - 25px);
+    left: calc(100px + 25px + 30px - 25px);
+}
+#boxD {
+    top: calc(100px + 25px + 30px - 25px);
+    left: calc(100px + 25px - 30px - 25px);
+}
+#boxE {
+    top: calc(100px + 25px + 30px - 25px);
+    left: calc(100px + 25px + 30px - 25px);
+}

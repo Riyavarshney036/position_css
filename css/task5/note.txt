@@ -1,0 +1,20 @@
+Explanation:
+
+HTML: The HTML structure contains three div elements with class box and unique classes box1, box2, and box3.
+
+CSS:
+body: The body is styled to center the boxes in the viewport.
+.box: This base class applies common styles to all the boxes, such as size, color, centering text, and setting
+ position: absolute.
+.box1, .box2, and .box3: These classes position the boxes at different locations using the top and left properties.
+ Each box has a different z-index value:
+.box1 (red) has z-index: 1
+.box2 (green) has z-index: 3
+.box3 (blue) has z-index: 2
+
+How z-index Works:
+Stacking Order: The z-index values determine the order in which the boxes are stacked. A higher z-index means the 
+element will be on top of elements with a lower z-index.
+Box 2 (z-index: 3) is on top.
+Box 3 (z-index: 2) is below Box 2 but above Box 1.
+Box 1 (z-index: 1) is at the bottom.
